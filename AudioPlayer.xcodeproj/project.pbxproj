@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5020C155276A7B3F0074A2EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5020C154276A7B3F0074A2EB /* main.m */; };
+		5020C15D276A7B570074A2EB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5020C15C276A7B570074A2EB /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		5020C151276A7B3F0074A2EB /* AudioPlayer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AudioPlayer; sourceTree = BUILT_PRODUCTS_DIR; };
 		5020C154276A7B3F0074A2EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5020C15C276A7B570074A2EB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5020C15D276A7B570074A2EB /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +46,7 @@
 			children = (
 				5020C153276A7B3F0074A2EB /* AudioPlayer */,
 				5020C152276A7B3F0074A2EB /* Products */,
+				5020C15B276A7B570074A2EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +64,14 @@
 				5020C154276A7B3F0074A2EB /* main.m */,
 			);
 			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		5020C15B276A7B570074A2EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5020C15C276A7B570074A2EB /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
